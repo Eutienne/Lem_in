@@ -25,6 +25,7 @@ I did this project with [@evitao](https://github.com/evitao)
  Lx-y Lz-w Lr-o ...
 ```
    x, z, r represents the ants’ numbers (going from 1 to number_of_ants) and y, w, o represents the rooms’ names.
+   
 ### Example:
 * Finally, we ask that the algorithm be able to use the best combination of paths according to the number of ants in cases such as the one presented below:
 ```

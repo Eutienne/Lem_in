@@ -5,8 +5,8 @@ I did this project with [@evitao](https://github.com/evitao)
 ## Project
 
  The goal of this project is to ﬁnd the quickest way to get n ants across the farm.<br>
- In this project it's the you searching for the fastest path, but also for the most paths.<br>
- So you can find a combination to bring the ants on the quickest way from start to end, without being in the same room on the same time. <br>
+ In this project you are searching for the fastest path, but also for the most paths.<br>
+ So you can find a combination to bring the ants in the quickest way from start to end, without being in the same room on the same time. <br>
  (Quickest way means the solution with the least number of lines, respecting the output format requested below)<br>
  
  ## Rules
@@ -37,14 +37,14 @@ I did this project with [@evitao](https://github.com/evitao)
        |   / 
        [end]
 
-By numbers of two ant's you want to use path: "start - 1 - 2 -end"
-On this moment are te total instructions 4. 
+By a number of two ant's you want to use path: "start - 1 - 2 -end"
+On this moment the total instructions are 4. 
 (it will be the same as you use path "start - 3 - 4 - 2 - end" AND "start - 1 - 5 - 6 - end")
-It is nicer to use one path in state (my opinion)
-If you got more ants than two, you want to use the paths: 
+It is nicer to use one path in this case (my opinion)
+If you got more than two ants, you want to use the paths: 
 "start - 3 - 4 - 2 - end" AND "start - 1 - 5 - 6 - end" 
 because that will always have less instructions than path "start - 1 - 2 -end"
-The question is, how do your algorithem solve this problem?
+The question is, how does your algorithem solve this problem?
 ```
 
 #### Algorithems you can check for this project
